@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.summery-yk.portainer",
+  "publisher": "summery-yk",
+  "version": "0.1.0",
+  "name": "Portainer",
+  "description": "Browse Portainer environments, stacks and containers from DBX, inspect resource usage and read container logs.",
+  "icon": "https://raw.githubusercontent.com/summery-yk/dbx-plugin-portainer/v0.1.0/assets/plugin.svg",
+  "tags": ["portainer", "docker", "container", "stack", "logs"],
+  "permissions": ["host.workbench"],
+  "source": "https://github.com/summery-yk/dbx-plugin-portainer/tree/v0.1.0",
+  "homepage": "https://github.com/summery-yk/dbx-plugin-portainer",
+  "license": "Apache-2.0",
+  "releaseNotes": "Initial release. Environment, stack and container browsing with health badges, database container discovery with ready-to-use DBX connection parameters, container logs (auto refresh, range, search, download, line selection) and resource statistics. Read-only: every Portainer request is a GET.",
+  "localizations": {
+    "zh-CN": {
+      "name": "Portainer",
+      "description": "在 DBX 中浏览 Portainer 的环境、堆栈与容器，查看资源占用并阅读容器日志。"
+    }
+  },
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/summery-yk/dbx-plugin-portainer/releases/download/v0.1.0/io.github.summery-yk.portainer-0.1.0-windows-x64.dbxp",
+      "sha256": "5fb49ca64e31314f1348fb660791e82134e0da84c8e43b8b4a12fef376872556",
+      "size": 5754038
+    }
+  ]
+}
